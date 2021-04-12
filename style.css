@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img.icon {
+  width: 3vw;
+  margin: 0vh 5vw;
+  border: 0;
+}
+.down-arrow {
+  text-align: center;
+}
