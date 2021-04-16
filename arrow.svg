@@ -1,3 +1,5 @@
-<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="54.327" height="35.757" viewBox="0 0 54.327 35.757">
+  <g id="Component_46_1" data-name="Component 46 – 1" transform="translate(54.327) rotate(90)">
+    <path id="Path_36" data-name="Path 36" d="M27.163,35.757,0,8.207,8.091,0,27.163,19.344,46.235,0l8.091,8.207Z" transform="translate(0 54.327) rotate(-90)" fill="#4eaefc"/>
+  </g>
 </svg>

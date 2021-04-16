@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -13,25 +18,60 @@ h2 {
 .navbar {
   text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
-  padding: 1.25rem 1.25rem;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
   background-color: #4eaeff;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #eeeeee !important;
+  color: #ffffff !important;
   padding-left: 2rem;
 }
 a:visited {
-  color: #eeeeee !important;
+  color: #ffffff !important;
 }
 a:hover {
   text-decoration: none !important;
 }
 
-.btn-outline-success {
-  color: #eeeeee;
-  border-color: #eeeeee;
+.container {
+  margin-top: 3vh;
+  padding: 0 !important;
+}
+
+.btn {
+  background-color: #4eaeff;
+  color: #ffffff;
+  border-color: #2699FB;
+  padding: 1rem 2rem;
+}
+
+#search-btn {
+  padding: 0.5rem 0.25rem;
+}
+
+#subscribe-button {
+  color: #ffffff;
+  border-color: #ffffff;
+  padding: 0.5rem 0.25rem;
+}
+
+.hero-caption {
+  position:absolute;
+  padding-top: 8vh;
+  padding-left: 10vh;
+  color: white;
+  /* text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;   */
+}
+
+.d-block {
+  /* width: 100vw; */
+  height: 80vh;
 }
 
 img.icon {
@@ -39,6 +79,13 @@ img.icon {
   margin: 0vh 5vw;
   border: 0;
 }
+
+img#logo {
+  width: 7vw;
+  margin: 0rem;
+  padding: 0rem;
+}
+
 .down-arrow {
   text-align: center;
 }
@@ -47,7 +94,7 @@ img.icon {
   font-size: 0.95rem;
   padding: 5rem 2rem;
   background-color: #4eaeff;
-  color: #eeeeee;
+  color: #ffffff;
   margin-top: 8vh;
   margin-bottom: 0vh;
 }
@@ -73,4 +120,22 @@ img.icon {
 
 #subscribe {
   padding-left: 1rem;
+}
+
+.hotels-and-tours {
+  width: 50vw;
+}
+
+#tours-card-text {
+  background-color: #BCE0FD;
+  color: #2699FB;
+}
+
+#hotels-card-text {
+  background-color: #BCE0FD;
+  color: #2699FB;
+}
+
+.col-xs-12 {
+  padding: 0 !important;
 }

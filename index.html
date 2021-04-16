@@ -21,11 +21,11 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand" href="#"
-        >
-        <img src="/tohoku-travel-logo.svg" width="30" height="30" alt="">
-      </a>
+    <!-- logo -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a href="#tours"
+      ><img id="logo" src="Assets/logo.svg" 
+    /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -66,7 +66,11 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <button
+            class="btn my-2 my-sm-0"
+            type="submit"
+            id="search-btn"
+          >
             Search
           </button>
         </form>
@@ -76,61 +80,87 @@
 
     <!-- image carousel -->
 
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <ol class="carousel-indicators">
-        <li
-          data-target="#carouselExampleIndicators"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide row"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="hero-caption">
+              <h1>Welcome to Tohoku Travel</h1>
+            </div>
+            <img
             class="d-block w-100"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_178c61840d8%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_178c61840d8%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.9140625%22%20y%3D%22218.45%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            alt="First slide"
+            src="Assets/miyagi-tohoku-cnn.jpeg"
+            alt="https://www.cnn.com/travel/article/tohoku-natural-attractions/index.html"
           />
+            <div class="carousel-caption d-none d-md-block">
+              <button
+                class="btn my-2 my-sm-0"
+                type="submit"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">            
+          <div class="hero-caption">
+            <h1>Welcome to Tohoku Travel</h1>
+          </div>
+            <img
+              class="d-block w-100"
+              src="Assets/tohoku-landing image.jpeg"
+              alt="https://cruiseportnavigation.com/guide/tohoku-region.html"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button
+                class="btn my-2 my-sm-0"
+                type="submit"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="hero-caption">
+              <h1>Welcome to Tohoku Travel</h1>
+            </div>
+            <img
+              class="d-block w-100"
+              src="Assets/notoya-ryokan-ginzan-onsen.jpeg"
+              alt="https://www.nippon.com/en/guide-to-japan/gu005013/soaking-in-history-at-ginzan-hot-springs.html"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button
+                class="btn my-2 my-sm-0"
+                type="submit"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_178c61840da%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_178c61840da%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3125%22%20y%3D%22218.45%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            alt="Second slide"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_178c61840db%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_178c61840db%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22276.9921875%22%20y%3D%22218.45%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            alt="Third slide"
-          />
-        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
 
     <!-- down arrow -->
@@ -148,22 +178,27 @@
     <div class="container" id="tours">
       <div class="row">
         <img
-          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 img-responsive center"
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 img-responsive center hotels-and-tours"
+          src="Assets/akita-cycling-tour.jpeg"
+          alt="https://www.tripadvisor.com/AttractionProductReview-g1022324-d23232491-Cycling_and_Food_Tour_with_Guide_from_Akita-Semboku_Akita_Prefecture_Tohoku.html"
         />
         <div
-          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 card bio"
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6"
           id="tours-card-text"
         >
-          <div class="card-body">
-            <h2 class="intro">Tohoku Tours</h2>
-            <h5 class="card-text">
+          <div class="card-body margin-top-one">
+            <h2 class="intro margin-top-one">Tohoku Tours</h2>
+            <h5 class="card-text margin-top-one">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim.
             </h5>
-            <p class="card-text">
+            <p class="card-text margin-top-one">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim.
             </p>
+            <button class="btn my-2 my-sm-0" type="submit">
+              Explore Tours
+            </button>
           </div>
         </div>
       </div>
@@ -173,55 +208,78 @@
     <div class="container" id="hotels">
       <div class="row">
         <div
-          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 card bio"
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6"
           id="hotels-card-text"
         >
-          <div class="card-body">
-            <h2 class="intro">Hotels and Resorts</h2>
-            <h5 class="card-text">
+          <div class="card-body margin-top-one">
+            <h2 class="intro margin-top-one">Hotels and Resorts</h2>
+            <h5 class="card-text margin-top-one">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim.
             </h5>
-            <p class="card-text">
+            <p class="card-text margin-top-one">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim.
             </p>
+            <button
+              class="btn my-2 my-sm-0 margin-top-one"
+              type="submit"
+            >
+              Discover Hotels
+            </button>
           </div>
         </div>
         <img
-          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 img-responsive center"
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 img-responsive center hotels-and-tours"
+          src="Assets/Shonai-Hotel-Suiden-Terrasse.jpeg"
+          alt="https://matadornetwork.com/read/tohoku-japan-travel/"
         />
       </div>
     </div>
     <!-- instagram -->
+
     <!-- footer -->
     <footer class="footer" id="footer-padding">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
             <div class="column-title">Contact Us</div>
-            <div class="footer-text margin-top-one">+81 (0)80 123 5678
-              <br>travel@tohoku-travel.jp
+            <div class="footer-text margin-top-one">
+              +81 (0)80 123 5678 <br />travel@tohoku-travel.jp
             </div>
           </div>
           <div class="col">
             <div class="column-title">Customer Service</div>
-            <div class="footer-text margin-top-one"><a href="#footer">Contact Us</a></div>
-            <div class="footer-text"><a href="#footer">Billing Information</a></div>
-            <div class="footer-text"><a href="#footer">Reservation Inquiries</a></div>
+            <div class="footer-text margin-top-one">
+              <a href="#footer">Contact Us</a>
+            </div>
+            <div class="footer-text">
+              <a href="#footer">Billing Information</a>
+            </div>
+            <div class="footer-text">
+              <a href="#footer">Reservation Inquiries</a>
+            </div>
             <div class="footer-text"><a href="#footer">FAQ</a></div>
           </div>
           <div class="col">
             <div class="column-title">Information</div>
-            <div class="footer-text margin-top-one"><a href="#footer">About Tohoku Travel</a></div>
+            <div class="footer-text margin-top-one">
+              <a href="#footer">About Tohoku Travel</a>
+            </div>
             <div class="footer-text"><a href="#footer">Privacy Policy</a></div>
-            <div class="footer-text"><a href="#footer">Terms & Conditions</a></div>
+            <div class="footer-text">
+              <a href="#footer">Terms & Conditions</a>
+            </div>
             <div class="footer-text"><a href="#footer">Press Inquiries</a></div>
           </div>
           <div class="col-md-5">
-            <div class="subscribe-form-title">Subscribe to Tohoku Travel via Email</div>
-            <div class="subscribe-text margin-top-one">Receive email promotions, exclusive giveaway alerts, and more!</div>
-            
+            <div class="subscribe-form-title">
+              Subscribe to Tohoku Travel via Email
+            </div>
+            <div class="subscribe-text margin-top-one">
+              Receive email promotions, exclusive giveaway alerts, and more!
+            </div>
+
             <div class="margin-top-one">
               <form class="form-inline my-2 my-lg-0" id="subscribe">
                 <input
@@ -230,7 +288,11 @@
                   placeholder="Email"
                   aria-label="email"
                 />
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <button
+                  class="btn my-2 my-sm-0"
+                  id="subscribe-button"
+                  type="submit"
+                >
                   Subscribe
                 </button>
               </form>
