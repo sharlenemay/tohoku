@@ -9,10 +9,20 @@ html {
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 3rem;
+  padding: .5rem;
 }
 
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding: .5rem;
+}
+
+h3 {
+  padding: .5rem;
+}
+
+p {
+  padding: 0rem .5rem;
 }
 
 .navbar {
@@ -90,6 +100,10 @@ img#logo {
   text-align: center;
 }
 
+.row {
+  margin-bottom: 5vh;
+}
+
 .footer {
   font-size: 0.95rem;
   padding: 5rem 2rem;
@@ -138,4 +152,38 @@ img#logo {
 
 .col-xs-12 {
   padding: 0 !important;
+}
+
+.prefectures {
+  padding: 0.25rem;
+}
+
+.img-fluid {
+  padding:0.5rem;
+}
+
+
+#about {
+  text-align: justify;
+}
+
+#six-prefectures {
+  margin: 0vh;
+}
+
+.prefectures {
+  text-align: center;
+}
+
+.back-to-top {
+  text-align: center;
+}
+
+#contact {
+  padding: 1rem;
+  text-align: center;
+}
+
+#places-to-visit {
+  margin: 0vh;
 }
