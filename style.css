@@ -14,15 +14,6 @@ h1 {
 
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  padding: .5rem;
-}
-
-h3 {
-  padding: .5rem;
-}
-
-p {
-  padding: 0rem .5rem;
 }
 
 .navbar {
@@ -45,6 +36,20 @@ a:hover {
   text-decoration: none !important;
 }
 
+#search-bar {
+  margin-right: 0rem!important;
+}
+
+.socials {
+  margin: .5rem;
+  width: 1rem;
+}
+
+.fb {
+  width: .5rem;
+  margin: .5rem;
+}
+
 .container {
   margin-top: 3vh;
   padding: 0 !important;
@@ -58,7 +63,8 @@ a:hover {
 }
 
 #search-btn {
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
 }
 
 #subscribe-button {
